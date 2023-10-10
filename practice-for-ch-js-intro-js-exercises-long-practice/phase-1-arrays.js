@@ -36,12 +36,10 @@ Array.prototype.transpose = function() {
         for (let j = 0; j < this.length; j++) {
             new_row.push(this[j][i])
         }
-        debugger
-        console.log(new_row)
-        // result.push(new_row)
+        result.push(new_row)
     }
 
-    // return result
+    return result
 }
 
 console.log(
